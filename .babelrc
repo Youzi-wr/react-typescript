@@ -1,0 +1,10 @@
+{
+    "presets": ["env", "react", "es2015", "stage-0"],
+    "plugins": [
+        "import",
+        "transform-runtime",
+        "syntax-dynamic-import",
+        "transform-class-properties",
+        "add-module-exports"
+    ]
+}

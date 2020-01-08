@@ -1,0 +1,107 @@
+.account {
+    background-color: #fff;
+    .form-wrap {
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 32px 11px 32px;
+        align-items: center;
+        background-color: #fff;
+    }
+}
+
+// 用户管理
+.user-mgr {
+    .form-item-left {
+        flex: 0 0 260px;
+    }
+    .form-item-center {
+        flex: 1 1 0;
+    }
+    .grid-table {
+        padding: 20px 32px;
+    }
+}
+
+// 新增用户
+.add-user {
+    .add-user-title {
+        padding: 14px 20px;
+        margin-bottom: 0;
+        border-bottom: 1px solid #eee;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .form-add-user {
+        margin: 20px 0;
+        width: 40%;
+    }
+    :global .ant-form-item{
+        display: block;
+        margin-bottom: 8px;
+    }
+}
+
+// 管理员设置
+.user-mgr {
+    height: 100%;
+    .user-mgr-title {
+        padding: 14px 20px;
+        margin-bottom: 0;
+        border-bottom: 1px solid #eee;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .form-user-mgr {
+        margin: 20px 0;
+        width: 50%;
+    }
+    :global .ant-form-item {
+        display: block;
+        margin-bottom: 8px;
+    }
+    :global button {
+        margin-left: 8px;
+    }
+}
+
+//部门设置
+.dept-mgr {
+    display: flex;
+    overflow: hidden;
+    .tree-wrap {
+        flex: 0 0 250px;
+        border-right: 1px solid #eee;
+        width: 250px;
+        margin-bottom: -5000px;
+        padding-bottom: 5000px;
+        .title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 20px;
+            border-bottom: 1px solid #eee;
+            font-size: 16px;
+            font-weight: normal;
+        }
+        :global icon {
+            cursor: pointer;
+        }
+        .dropdown-item {
+            border-bottom: 1px solid #eee;
+        }
+        .tree {
+            padding: 10px 20px;
+        }
+    }
+    .table-wrap {
+        flex: 1 1 auto;
+        margin-bottom: -5000px;
+        padding-bottom: 5000px;
+        .title {
+            padding: 10px 20px;
+            border-bottom: 1px solid #eee;
+            font-size: 16px;
+            font-weight: normal;
+        }
+    }
+}
